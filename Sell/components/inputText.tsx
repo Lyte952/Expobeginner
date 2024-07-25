@@ -20,7 +20,7 @@ export default function InputText({ label }) {
                   }}>
         {/**<Icon name="lock" size={24} color="gray" style={styles.icon} />**/}
         <TextInput
-          style={{ width: "75%", height: "100%", fontSize: 18, marginLeft: 3 }}
+          style={{ width: "87%", height: "100%", fontSize: 18, marginLeft: 3 }}
           onChangeText={setPassword}
           value={password}
           placeholder="Enter your password"
@@ -45,7 +45,11 @@ export default function InputText({ label }) {
                   }}>
         {/**<Icon name="person" size={24} color="gray" style={styles.icon} />**/}
         <TextInput
-          style={{ fontSize: 18, marginLeft: 3 }}
+          style={{ fontSize: 18, 
+                   marginLeft: 3,
+                   height: "100%",
+                   width: "100%",
+                  }}
           onChangeText={setText}
           value={text}
           placeholder={label}
