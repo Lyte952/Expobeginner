@@ -7,12 +7,15 @@ export const styles = StyleSheet.create({
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
+      top: -20,
     },
 
     text: {
-        color: '#595959',
+        color: '#000',
         fontSize: 28,
         fontWeight: 700,
+        width: "100%",
+        marginLeft: "29%",
     },
     subtext:{
         color: "#999999",
@@ -25,7 +28,7 @@ export const styles = StyleSheet.create({
         paddingTop: 0,
     },
     image: {
-        width: 150,
+        width: 250,
         height: 150,
         borderRadius: 18,
         zIndex: 1,
@@ -38,7 +41,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         padding: 3,
-        backgroundColor: "#cb8ff8f5",
+        backgroundColor: "#ff6a1e",
         borderRadius: 12,
       },
       button: {
@@ -65,8 +68,6 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         padding: 8,
-        borderRadius: 12,
-        borderWidth: 0.3,
       },
       secondbutton: {
         width: '100%',
@@ -79,7 +80,7 @@ export const styles = StyleSheet.create({
         paddingRight: 2,
       },
       secondbuttonLabel: {
-        color: '#999999',
+        color: '#000',
         fontSize: 16,
         flexWrap: "nowrap",
       },
@@ -102,24 +103,8 @@ export const styles = StyleSheet.create({
         marginTop: 10,
         marginBottom: 14,
         paddingHorizontal: 8,
-        backgroundColor: "#fff",
-        fontSize: 16,
-        borderWidth: 0.2,
-        borderTopColor: "#cb8ff8f5",
-        borderLeftColor: "#cb8ff8f5",
-        borderBottomColor: "#cb8ff8f5",
-        borderRightColor: "#cb8ff8f5",
-        ...Platform.select({
-            ios: {
-              shadowColor: '#25292e',
-              shadowOffset: { width: 6, height: 10 },
-              shadowOpacity: 0.25,
-              shadowRadius: 5,
-            },
-            android: {
-              elevation: 10,
-            },
-          }),
+        backgroundColor: "#f3f3f3",
+        fontSize: 12,
         },
         icon: {
             padding: 8,

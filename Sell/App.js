@@ -2,13 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 import { styles } from './config/theme';
 
-import Login from './pages/login';
+import SignUp from './pages/signup';
 
 export default function App() {
   return (
     
     <View style={styles.container}>
-      <Login />
+      <SignUp />
       <StatusBar style="auto" />
     </View>
   );

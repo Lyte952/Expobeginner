@@ -18,9 +18,9 @@ export default function InputText({ label }) {
                      justifyContent: "space-between",
                      alignItems: "center",
                   }}>
-        <Icon name="lock" size={24} color="gray" style={styles.icon} />
+        {/**<Icon name="lock" size={24} color="gray" style={styles.icon} />**/}
         <TextInput
-          style={{ width: "75%", height: "100%", fontSize: 18 }}
+          style={{ width: "75%", height: "100%", fontSize: 18, marginLeft: 3 }}
           onChangeText={setPassword}
           value={password}
           placeholder="Enter your password"
@@ -43,9 +43,9 @@ export default function InputText({ label }) {
                       justifyContent: "flex-start",
                       alignItems: "center",
                   }}>
-        <Icon name="person" size={24} color="gray" style={styles.icon} />
+        {/**<Icon name="person" size={24} color="gray" style={styles.icon} />**/}
         <TextInput
-          style={{ fontSize: 18 }}
+          style={{ fontSize: 18, marginLeft: 3 }}
           onChangeText={setText}
           value={text}
           placeholder={label}

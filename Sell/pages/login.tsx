@@ -25,9 +25,9 @@ export default function Login(){
             </View>
         </View>
         <View style={styles.footerContainer}>
-            <Button theme="main" label="Continue" />
+            <Button theme="main" label="Log in" />
             <View style={{ marginBottom: 50, marginTop: 20 }}>
-                <Button theme="second" label="Don't have an account yet? Sign up ↵" />
+                <Button theme="second" label="Don't have an account yet, Sign up" />
             </View>
         </View>
       </View>

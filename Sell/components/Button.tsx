@@ -21,7 +21,7 @@ export default function Button({ label, theme }) {
         <View style={styles.buttonContainer}>
             <Pressable style={styles.button} onPress={() => alert(`You pressed ${label}`)}>
                 <Text style={styles.buttonLabel}>
-                    {`${label}  →`}
+                    {label}
                 </Text>
             </Pressable>
         </View>
