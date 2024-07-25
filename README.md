@@ -1,2 +1,1 @@
-# Expobeginner
-First expo app
+
